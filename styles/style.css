@@ -66,7 +66,6 @@ nav li {
   /* line-height: 116px; */
   /* identical to box height */
 
-  /* Dark 01 */
   color: #181818;
   margin-bottom: 20px;
 }
@@ -75,18 +74,73 @@ nav li {
   font-weight: 600;
   font-size: 45px;
   line-height: 61px;
-  /* Dark 02 */
+
   color: #474747;
   margin-top: 5px;
 }
 
-.intro {
+.text-1 {
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
+  /* line-height: 30px; */
   /* or 167% */
 
-  /* Dark 03 */
   color: #757575;
   margin-bottom: 30px;
+}
+
+/* Main Section Styles */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About Section Styles */
+
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  margin-top: 130px;
+  padding: 130px 157px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  /* line-height: 48px;
+identical to box height */
+  text-align: center;
+
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-info {
+}
+
+.info-title {
+  font-size: 20px;
+  text-align: center;
+  color: #757575;
+}
+
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #474747;
 }
